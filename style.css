@@ -183,6 +183,48 @@ button:active{
     align-items: center;
 
 }
+
+/* ---------------kontak-------------------- */
+.contact-left{
+   flex-basis: 35%;
+}
+.contact-right{
+   flex-basis: 60%;
+}
+.contact-left p{
+   margin-top: 30px;
+}
+.contact-left p i{
+   color: #00AD21;
+   margin-right: 15px;
+   font-size: 25px;
+}
+.social-icons{
+   margin-top: 30px;
+}
+.social-icons a{
+   text-decoration: none;
+   font-size: 30px;
+   margin-right: 15px;
+   color: #ababab;
+   display: inline-block;
+   transition: transform;
+}
+.social-icons a:hover{
+   color: #00AD21;
+   transform: translateY(-5px);
+}
+.copyright{
+   width: 100%;
+   text-align: center;
+   padding: 25px 0;
+   background: #262626;
+   font-weight: 300;
+   margin-top: 20px;
+}
+.copyright i{
+   color: #00AD21;
+}
  
 .services-text p:nth-child(1){
     font-family: calibri;

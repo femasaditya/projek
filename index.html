@@ -7,28 +7,31 @@
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>   
 </head>
 <body>
-    <section id="home">
-        <!--- navigation --->
-        <nav>
-            <!--- logo --->
-            <a href="#" class="logo">Web Portofolio</a>
-            <!--- menu --->
-            <ul>
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#Projek">Projek</a></li>
-                 <li><a href="#Sertifikat">Sertifikat</a></li>
-                <li><a href="#Contak">Contak</a></li>
-            
-            </ul>
-        </nav>
- 
+    <!--- navigation --->
+    <nav>
+        <!--- logo --->
+        <a href="#" class="logo">Web Portofolio</a>
+        <!--- menu --->
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Projek">Projek</a></li>
+            <li><a href="#Sertifikat">Sertifikat</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+
+        </ul>
+    </nav>
+    <section class="home" id="home"
         <!--- text --->
         <div class="text-container">
             <p>Hallo, Guys!</p>
             <p>SAYA DEDI FEMAS</p>
             <p>Siswa dari SMKN 1 NGLEGOK</p>
+        </div>
+        
 
+
+    </section>
             
     <section id="about">
         <img src="img/oke.jpeg" alt="" width="200" class="bunder">
@@ -68,59 +71,22 @@
 <img src="img/iya.jpeg" alt="" width="500">
 </section>
 
-<section id="kontak">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Kontak</h1>
-                <p class="eki"><i class="fa-solid fa-paper-plane"></i>dedi.femas10@smk.belajar.id</p>
-                <p><i class="fa-solid fa-phone"></i>085608187391</p>
-                <div class="social-icons">
-                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-square-instagram"></i></a>
-                    <a href=""><i class="fab fa-square-whatsapp"></i></a>
-                    <a href=""><i class="fab fa-linkedin"></i></a>
+<section class="kontak" id="kontak">
+                <h3 class="contact">KONTAK SAYA</h3>
+    
+                <div class="social-media">
+                    <a href="https://instagram.com/dedifemasaditia?igshid=YTQwZjQ0NmI0OA==" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=100094887805019&mibextid=ZbWKwL" target="_blank">Facebook</a>
+                    <a href="https://www.tiktok.com/@dedifemas?_t=8hvPXvczOJ0&_r=1" target="_blank">Tiktok</a>
+                    <a href="https://github.com/femasaditya" target="_blank">Github</a>
+
                 </div>
-            </div>
-        </div>
-    </div>
-    </div>
 </section>
-<script>
-
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-
-</script>
-
-<script>
-    var sidemeu = document.getElementById("sidemenu");
-
-    function openmenu(){
-        sidemeu.style.right = "0";
-    }
-    function closemenu(){
-        sidemeu.style.right = "-200px";
-    }
-
-</script>
 
 </body>
 </html>
             
-        </div>
         
-    </section>
+    
 
     

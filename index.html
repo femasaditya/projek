@@ -27,6 +27,59 @@
             <p>Hallo, Guys!</p>
             <p>SAYA DEDI FEMAS</p>
             <p>Siswa dari SMKN 1 NGLEGOK</p>
+
+            <section id="kontak">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Kontak</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dendy.bagus25@smk.belajar.id</p>
+                <p><i class="fa-solid fa-phone"></i>085750607953</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-square-instagram"></i></a>
+                    <a href=""><i class="fab fa-square-whatsapp"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ** Dendy <i class="fa-solid fa-heart"></i> by Dendy Cemblek</p>
+    </div>
+</section>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
             
         </div>
         
